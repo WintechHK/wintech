@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  Last Published: Tue Oct 29 2024 03:49:29 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Wed Oct 30 2024 03:33:27 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="671f3e84745c706f0145669e" data-wf-site="671f3e84745c706f014566a2">
 <head>
   <meta charset="utf-8">
@@ -232,11 +232,8 @@ margin: 0rem !important;
                 <div class="navbar_locales-dropdown-icon w-icon-dropdown-toggle"></div>
               </div>
               <nav class="navbar_locales-dropdown-list w-dropdown-list">
-                <div role="list" class="navbar_locales-list w-locales-items">
-                  <div role="listitem" class="navbar_locale w-locales-item">
-                    <a hreflang="en" href="services.html" aria-current="page" class="navbar_locales-link">English</a>
-                  </div>
-                </div>
+                <a href="index.html" class="navbar_link is-locale">English</a>
+                <a href="zh.html" class="navbar_link is-locale">繁體中文 (香港)</a>
               </nav>
             </div>
           </div>
@@ -287,7 +284,7 @@ margin: 0rem !important;
                           <a href="contact-us.html" class="button w-button">Contact us</a>
                         </div>
                       </div>
-                      <a href="service/safety-and-cost-effectiveness.html" class="image-wrapper-4x5 w-inline-block"><img loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 94vw, 45vw" srcset="images/671f3e84745c706f01456781_01.jpg 500w, images/671f3e84745c706f01456781_01.jpg 800w, images/671f3e84745c706f01456781_01.jpg 1000w" alt="" src="images/671f3e84745c706f01456781_01.jpg" class="image-cover"></a>
+                      <a href="service/safety-and-cost-effectiveness.html" class="image-wrapper-4x5 w-inline-block"><img loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 94vw, 45vw" srcset="images/671f3e84745c706f01456781_01-p-500.jpg 500w, images/671f3e84745c706f01456781_01-p-800.jpg 800w, images/671f3e84745c706f01456781_01.jpg 1000w" alt="" src="images/671f3e84745c706f01456781_01.jpg" class="image-cover"></a>
                     </div>
                   </div>
                   <div id="w-node-cac0390f-80ce-5897-eb24-a679eb6024ed-0145669e" class="services-item_item">
@@ -309,7 +306,7 @@ margin: 0rem !important;
                           <a href="contact-us.html" class="button w-button">Contact us</a>
                         </div>
                       </div>
-                      <a href="service/backup-power-system-infrastructure.html" class="image-wrapper-4x5 w-inline-block"><img loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 94vw, 45vw" srcset="images/671f3e84745c706f0145677d_02.jpg 500w, images/671f3e84745c706f0145677d_02.jpg 800w, images/671f3e84745c706f0145677d_02.jpg 1049w" alt="" src="images/671f3e84745c706f0145677d_02.jpg" class="image-cover"></a>
+                      <a href="service/backup-power-system-infrastructure.html" class="image-wrapper-4x5 w-inline-block"><img loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 94vw, 45vw" srcset="images/671f3e84745c706f0145677d_02-p-500.jpeg 500w, images/671f3e84745c706f0145677d_02-p-800.jpeg 800w, images/671f3e84745c706f0145677d_02.jpg 1049w" alt="" src="images/671f3e84745c706f0145677d_02.jpg" class="image-cover"></a>
                     </div>
                   </div>
                   <div id="w-node-ab15643b-7a0d-56d5-0d4f-815a2ca11460-0145669e" class="services-item_item">
@@ -504,7 +501,10 @@ margin: 0rem !important;
           <div class="line-divider"></div>
           <div class="padding-top padding-medium">
             <div class="footer_bottom-wrapper">
-              <div class="footer_credit-text">© 2023 WINTECH. All rights reserved.</div>
+              <div class="footer_credit-text">© <span id="year">2024</span> WINTECH. All rights reserved.</div>
+              <div class="hide w-embed w-script">
+                <script>document.querySelector('#year').innerText = new Date().getFullYear();</script>
+              </div>
               <div class="footer_credit-text">
                 <a href="https://www.mediastudio.space" target="_blank">WEB DESIGN</a>
               </div>

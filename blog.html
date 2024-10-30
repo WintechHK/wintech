@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  Last Published: Tue Oct 29 2024 03:49:29 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Wed Oct 30 2024 03:33:27 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="671f3e84745c706f01456697" data-wf-site="671f3e84745c706f014566a2">
 <head>
   <meta charset="utf-8">
@@ -232,11 +232,8 @@ margin: 0rem !important;
                 <div class="navbar_locales-dropdown-icon w-icon-dropdown-toggle"></div>
               </div>
               <nav class="navbar_locales-dropdown-list w-dropdown-list">
-                <div role="list" class="navbar_locales-list w-locales-items">
-                  <div role="listitem" class="navbar_locale w-locales-item">
-                    <a hreflang="en" href="blog.html" aria-current="page" class="navbar_locales-link">English</a>
-                  </div>
-                </div>
+                <a href="index.html" class="navbar_link is-locale">English</a>
+                <a href="zh.html" class="navbar_link is-locale">繁體中文 (香港)</a>
               </nav>
             </div>
           </div>
@@ -269,7 +266,7 @@ margin: 0rem !important;
                 <div class="blog_item">
                   <a href="blog/2024-corporate-system-development-cost-analysis-the-most-comprehensive-pricing-guide.html" class="blog_item-wrapper w-inline-block">
                     <div class="blog_image-link">
-                      <div class="blog_image-wrapper"><img srcset="images/671f3e84745c706f01456791_html-system-website-concept.webp 500w, images/671f3e84745c706f01456791_html-system-website-concept.webp 800w, images/671f3e84745c706f01456791_html-system-website-concept.webp 1000w" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 94vw, (max-width: 991px) 29vw, 28vw" alt="" src="images/671f3e84745c706f01456791_html-system-website-concept.webp" class="blog_image"></div>
+                      <div class="blog_image-wrapper"><img srcset="images/671f3e84745c706f01456791_html-system-website-concept-p-500.webp 500w, images/671f3e84745c706f01456791_html-system-website-concept-p-800.webp 800w, images/671f3e84745c706f01456791_html-system-website-concept.webp 1000w" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 94vw, (max-width: 991px) 29vw, 28vw" alt="" src="images/671f3e84745c706f01456791_html-system-website-concept.webp" class="blog_image"></div>
                     </div>
                     <div class="blog_title-link">
                       <h2 class="heading-style-h5">2024 Corporate System Development Cost Analysis: The Most Comprehensive Pricing Guide</h2>
@@ -280,7 +277,7 @@ margin: 0rem !important;
                 <div id="w-node-a9d2b1df-fffd-4236-5a86-a8135a91a2ff-01456697" class="blog_item">
                   <a href="blog/the-most-comprehensive-guide-to-app-development-costs-in-2024-how-much-does-it-cost-to-write-an-app.html" class="blog_item-wrapper w-inline-block">
                     <div class="blog_image-link">
-                      <div class="blog_image-wrapper"><img srcset="images/671f3e84745c706f0145678e_high-angle-hands-holding-paper.webp 500w, images/671f3e84745c706f0145678e_high-angle-hands-holding-paper.webp 800w, images/671f3e84745c706f0145678e_high-angle-hands-holding-paper.webp 1000w" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 94vw, (max-width: 991px) 29vw, 28vw" alt="" src="images/671f3e84745c706f0145678e_high-angle-hands-holding-paper.webp" class="blog_image"></div>
+                      <div class="blog_image-wrapper"><img srcset="images/671f3e84745c706f0145678e_high-angle-hands-holding-paper-p-500.webp 500w, images/671f3e84745c706f0145678e_high-angle-hands-holding-paper-p-800.webp 800w, images/671f3e84745c706f0145678e_high-angle-hands-holding-paper.webp 1000w" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 94vw, (max-width: 991px) 29vw, 28vw" alt="" src="images/671f3e84745c706f0145678e_high-angle-hands-holding-paper.webp" class="blog_image"></div>
                     </div>
                     <div class="blog_title-link">
                       <h2 class="heading-style-h5">The Most Comprehensive Guide to App Development Costs in 2024: How Much Does It Cost to Write an App?</h2>
@@ -347,7 +344,10 @@ margin: 0rem !important;
           <div class="line-divider"></div>
           <div class="padding-top padding-medium">
             <div class="footer_bottom-wrapper">
-              <div class="footer_credit-text">© 2023 WINTECH. All rights reserved.</div>
+              <div class="footer_credit-text">© <span id="year">2024</span> WINTECH. All rights reserved.</div>
+              <div class="hide w-embed w-script">
+                <script>document.querySelector('#year').innerText = new Date().getFullYear();</script>
+              </div>
               <div class="footer_credit-text">
                 <a href="https://www.mediastudio.space" target="_blank">WEB DESIGN</a>
               </div>

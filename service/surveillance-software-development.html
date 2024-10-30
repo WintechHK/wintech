@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  Last Published: Tue Oct 29 2024 03:49:29 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Wed Oct 30 2024 03:33:27 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="67205370dec665b00f14802b" data-wf-site="671f3e84745c706f014566a2">
 <head>
   <meta charset="utf-8">
@@ -232,11 +232,8 @@ margin: 0rem !important;
                 <div class="navbar_locales-dropdown-icon w-icon-dropdown-toggle"></div>
               </div>
               <nav class="navbar_locales-dropdown-list w-dropdown-list">
-                <div role="list" class="navbar_locales-list w-locales-items">
-                  <div role="listitem" class="navbar_locale w-locales-item">
-                    <a hreflang="en" href="../service/surveillance-software-development.html" aria-current="page" class="navbar_locales-link">English</a>
-                  </div>
-                </div>
+                <a href="../index.html" class="navbar_link is-locale">English</a>
+                <a href="../zh.html" class="navbar_link is-locale">繁體中文 (香港)</a>
               </nav>
             </div>
           </div>
@@ -340,7 +337,10 @@ margin: 0rem !important;
           <div class="line-divider"></div>
           <div class="padding-top padding-medium">
             <div class="footer_bottom-wrapper">
-              <div class="footer_credit-text">© 2023 WINTECH. All rights reserved.</div>
+              <div class="footer_credit-text">© <span id="year">2024</span> WINTECH. All rights reserved.</div>
+              <div class="hide w-embed w-script">
+                <script>document.querySelector('#year').innerText = new Date().getFullYear();</script>
+              </div>
               <div class="footer_credit-text">
                 <a href="https://www.mediastudio.space" target="_blank">WEB DESIGN</a>
               </div>
